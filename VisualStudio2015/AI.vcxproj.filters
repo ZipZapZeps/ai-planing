@@ -2,8 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\src\AStarDemo.cpp" />
+    <ClCompile Include="..\src\Grid.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\AStar.h" />
+    <ClInclude Include="..\include\Grid.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{859afa25-b7c0-46a0-8e79-2f3faada9dad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

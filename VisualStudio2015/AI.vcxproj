@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\AStarDemo.cpp" />
+    <ClCompile Include="..\src\Grid.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\AStar.h" />
+    <ClInclude Include="..\include\Grid.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5D62746F-26F9-4266-AAB8-CDDDB7CBB092}</ProjectGuid>
