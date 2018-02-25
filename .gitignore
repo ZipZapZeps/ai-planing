@@ -1,0 +1,9 @@
+*.suo
+*.tlog
+*.pdb
+*.opensdf
+*.user
+*.log
+VisualStudio2015/Debug/
+VisualStudio2015/Release/
+*.sdf
