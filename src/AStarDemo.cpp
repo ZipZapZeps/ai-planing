@@ -1,5 +1,7 @@
 
 #include "AStar.h"
+#include "MonteCarloTreeSearch.h"
+#include "TicTacToe.h"
 #include "Grid.h"
 
 int main()
@@ -20,6 +22,9 @@ int main()
   astar.run(g, initialNode, endNode, finalPath);
 
   finalPath->printPath();
+
+  AI::GameTheory::MonteCarloTreeSearch<TicTacToe> mcts;
+  mcts.run();
 
   return 0;
 }

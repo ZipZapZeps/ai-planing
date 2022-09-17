@@ -25,6 +25,8 @@
   <ItemGroup>
     <ClInclude Include="..\include\AStar.h" />
     <ClInclude Include="..\include\Grid.h" />
+    <ClInclude Include="..\include\MonteCarloTreeSearch.h" />
+    <ClInclude Include="..\include\TicTacToe.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5D62746F-26F9-4266-AAB8-CDDDB7CBB092}</ProjectGuid>

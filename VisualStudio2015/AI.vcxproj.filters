@@ -11,6 +11,10 @@
     <ClInclude Include="..\include\Grid.h">
       <Filter>Demos</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\MonteCarloTreeSearch.h" />
+    <ClInclude Include="..\include\TicTacToe.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Demos">
